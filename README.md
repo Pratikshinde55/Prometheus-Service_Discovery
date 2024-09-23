@@ -55,3 +55,16 @@ Kill or delete prometheus service command:
 start prometheus command:
 
      ./prometheus
+
+- Step:4 [ On prometheus WebUI]
+
+Go to prometheus WebUI then go to Status here we see "Service Discovery"
+
+![image](https://github.com/user-attachments/assets/fcd1935d-b0f6-4bfe-90b5-1dc8051e774d)
+
+Go to prometheus WebUI then go to Status here we see Target list
+
+![image](https://github.com/user-attachments/assets/d375adb1-7384-4f88-bf21-8bbd8fd77b8a)
+
+PromQL
+![image](https://github.com/user-attachments/assets/054766f9-f6dc-4d51-8e4a-f7bb7600fb64)
