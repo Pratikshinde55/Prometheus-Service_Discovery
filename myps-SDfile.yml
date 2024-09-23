@@ -1,0 +1,17 @@
+########  This is Custom file for File Service Discovery
+
+#Linux target node info(Node_exporter installed)
+
+- targets: ["13.235.67.173:9100"]
+  labels:
+    region: "IN"
+    env: "DevOps"
+    team: "ps"
+
+ #Docker target node info (Docker metrics exposes)
+ 
+- targets: ["65.1.111.18:9323"]
+  labels:
+    region: "US"
+    env: "Test"
+    team: "ps2"
