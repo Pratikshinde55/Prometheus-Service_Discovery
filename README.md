@@ -66,3 +66,7 @@ Go to prometheus WebUI then go to Status here we see Target list
 
 PromQL
 ![image](https://github.com/user-attachments/assets/054766f9-f6dc-4d51-8e4a-f7bb7600fb64)
+
+
+
+
