@@ -1,5 +1,4 @@
-# Prometheus-Service_Discovery
-Prometheus Service Discover setup for File_sd and EC2_sd
+# Prometheus Service Discover setup for File_sd and EC2_sd
 
 ## Service Discovery:
 Prometheus Service Discover helps us to monitoring dynamic environment that keep on changing.
@@ -8,7 +7,7 @@ Prometheus Service Discover auto detect Targets.
 
 There are different Sevice Discovery:
 
-### 1. File Service Discovery:
+## 1. File Service Discovery:
 
 In this type of SD we create a custom YAMl file and put Targets information in that file, and that file we put in "prometheus.yml" config file for referance.
 
@@ -16,7 +15,7 @@ In this type of SD we create a custom YAMl file and put Targets information in t
 
   For Linux target Node Prometheus Node_exporter is installed and allow inbound rules.
 
-- Step:1 [Create custom file]
+### Step:1 [Create custom file]
   
   The file extension should be .yml
 
@@ -29,7 +28,7 @@ Here,
 
 ![image](https://github.com/user-attachments/assets/f45ae27a-0aa9-46e3-bb2e-fd39f71575df)
   
-- Step:2 [Add File name in prometheus.yml config file]
+### Step:2 [Add File name in prometheus.yml config file]
 
      vim prometheus.yml
 
@@ -43,8 +42,7 @@ Here,
 
 " - files: " = we put custom file name here.
 
-
-- Step:3 [Restart Prometheus server]
+### Step:3 [Restart Prometheus server]
 
 After make any changes in prometheus.yml config file then need to restart prometheus service for apply new changes.
 
@@ -56,7 +54,7 @@ start prometheus command:
 
      ./prometheus
 
-- Step:4 [ On prometheus WebUI]
+### Step:4 [ On prometheus WebUI]
 
 Go to prometheus WebUI then go to Status here we see "Service Discovery"
 
