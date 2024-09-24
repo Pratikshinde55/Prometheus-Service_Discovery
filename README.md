@@ -13,7 +13,7 @@ In this type of SD we create a custom YAMl file and put Targets information in t
 
 - Note:
 
-  For Linux target Node Prometheus Node_exporter is installed and allow inbound rules.
+  For Linux target Node Prometheus **Node_exporter** is installed and allow inbound rules.
 
 ### Step:1 [Create custom file]
 
