@@ -1,7 +1,7 @@
 # Prometheus Service Discover setup for File_sd and EC2_sd
 
 ## Service Discovery:
-Prometheus Service Discover helps us to monitoring dynamic environment that keep on changing.
+**Prometheus** Service Discover helps us to monitoring dynamic environment that keep on changing.
 
 Prometheus Service Discover auto detect Targets.
 
