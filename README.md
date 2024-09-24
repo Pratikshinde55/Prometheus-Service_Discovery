@@ -16,8 +16,10 @@ In this type of SD we create a custom YAMl file and put Targets information in t
   For Linux target Node Prometheus Node_exporter is installed and allow inbound rules.
 
 ### Step:1 [Create custom file]
-  
-  The file extension should be .yml
+
+Scraping menas retrieve data from targets.
+
+The file extension should be .yml
 
 ![image](https://github.com/user-attachments/assets/75748754-280b-41d0-9e92-08df3da69311)
 
