@@ -25,8 +25,9 @@ The file extension should be .yml
 
 Here,
 
-** - targets: ** = is endpoint of target node where node metrics exposes.
-** labels: ** = we can any label to target nodes this helps during run query on prometheus WebUI using "PromOL".
+**- targets:** = is endpoint of target node where node metrics exposes.
+
+**labels:** = we can any label to target nodes this helps during run query on prometheus WebUI using "PromOL".
 
 ![image](https://github.com/user-attachments/assets/f45ae27a-0aa9-46e3-bb2e-fd39f71575df)
   
@@ -38,11 +39,11 @@ Here,
 
 Here, 
 
-" - job_name: " = we give job name for our task in prometheus.yml file.
+**- job_name:** = we give job name for our task in prometheus.yml file.
 
-" file_sd_configs: " = This defines File Service Discovery use.
+**file_sd_configs:** = This defines File Service Discovery use.
 
-" - files: " = we put custom file name here.
+**- files:** = we put custom file name here.
 
 ### Step:3 [Restart Prometheus server]
 
@@ -83,7 +84,7 @@ Prometheus EC2 Service Discovery is useful for automatic detect AWS Instances.
 
 To access any aws service from outside we need access or credentials. When any instance launch then automatic data collect by prometheus by using prometheus.
 
-For this on AWS Console i create IAM user and attach policy "AmazonEC2ReadOnlyAccesss" and create secret key for "Third party use"
+For this on AWS Console i create IAM user and attach policy **"AmazonEC2ReadOnlyAccesss"** and create secret key for "Third party use"
 
 ![Screenshot 2024-09-23 165015](https://github.com/user-attachments/assets/6674760d-af72-43f0-9ffd-efb392be78f9)
 
@@ -94,7 +95,7 @@ For this on AWS Console i create IAM user and attach policy "AmazonEC2ReadOnlyAc
 
  this only get EC2 outside information like public IP and Private IP. but not get inside data.
 
-" __address__ " = This is endpoint of target node 
+**__address__** = This is endpoint of target node 
 
 We know the endpoint of prometheus node_exporter is public Ip:9100 port no.  The endpoint is right then only Scraping is done.
  
