@@ -25,8 +25,8 @@ The file extension should be .yml
 
 Here,
 
-" - targets: " = is endpoint of target node where node metrics exposes.
-" labels: " = we can any label to target nodes this helps during run query on prometheus WebUI using "PromOL".
+** - targets: ** = is endpoint of target node where node metrics exposes.
+** labels: ** = we can any label to target nodes this helps during run query on prometheus WebUI using "PromOL".
 
 ![image](https://github.com/user-attachments/assets/f45ae27a-0aa9-46e3-bb2e-fd39f71575df)
   
