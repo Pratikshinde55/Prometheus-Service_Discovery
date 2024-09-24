@@ -3,7 +3,7 @@
 ## Service Discovery:
 **Prometheus** Service Discover helps us to monitoring dynamic environment that keep on changing.
 
---- Prometheus Service Discover auto detect Targets
+---Prometheus Service Discover auto detect Targets
 
 There are different Sevice Discovery:
 
